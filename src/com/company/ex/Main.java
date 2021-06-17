@@ -7,7 +7,9 @@ public class Main {
         for(int i = 0; i<4; i++) {
             list.add(i);
         }
+        System.out.println("Get: " + list.get(2));
+        System.out.println("IndexOf: 4: " + list.indexOf(4));
         list.printList();
-        System.out.println(list.contains(4));
+        System.out.println(list.contains(3));
     }
 }
